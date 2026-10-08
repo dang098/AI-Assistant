@@ -1,0 +1,33 @@
+# API Framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# Data Validation
+pydantic>=2.8.0
+pydantic-settings>=2.4.0
+
+# Vector Database
+chromadb>=0.5.0
+
+# LLM & Cloud SDK
+google-genai>=2.0.0
+supabase>=2.0.0
+
+# Reranking
+flashrank>=0.2.9
+
+# MCP Server
+fastmcp>=2.3.0
+
+# Utilities
+httpx>=0.27.0
+tiktoken>=0.7.0
+python-dotenv>=1.1.0
+pypdf>=4.3.0
+tenacity>=8.5.0
+
+# Testing
+pytest>=8.3.0
+pytest-asyncio>=0.24.0
+pytest-mock>=3.14.0

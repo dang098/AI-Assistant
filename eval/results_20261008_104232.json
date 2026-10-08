@@ -1,0 +1,84 @@
+{
+  "timestamp": "20261008_104232",
+  "total_test_cases": 5,
+  "average_faithfulness": 1.0,
+  "average_answer_relevancy": 1.0,
+  "target_met": true,
+  "details": [
+    {
+      "test_id": 1,
+      "question": "Nhân viên Part-time phải làm việc tối thiểu bao nhiêu giờ mỗi ngày?",
+      "ground_truth": "Nhân viên Part-time làm tối thiểu 5 giờ/ngày và phải thông báo trước cho trưởng nhóm.",
+      "ai_answer": "Nhân viên Part-time phải làm việc tối thiểu 5 giờ mỗi ngày.",
+      "rerank_scores": [
+        0.9993,
+        0.9634,
+        0.9302
+      ],
+      "faithfulness": 1.0,
+      "faithfulness_reason": "Khẳng định 'Nhân viên Part-time phải làm việc tối thiểu 5 giờ mỗi ngày' được trích dẫn chính xác và trực tiếp từ phần đầu của ngữ cảnh tài liệu cung cấp.",
+      "answer_relevancy": 1.0,
+      "relevancy_reason": "Câu trả lời trực tiếp đi thẳng vào con số cần tìm, không có thông tin thừa, hoàn toàn đáp ứng yêu cầu của câu hỏi."
+    },
+    {
+      "test_id": 2,
+      "question": "Quy định về việc chấm công hàng ngày buổi sáng và buổi chiều như thế nào?",
+      "ground_truth": "Sáng chấm công giờ vào làm và giờ nghỉ trưa; Chiều chấm công giờ vào làm và giờ nghỉ ra về.",
+      "ai_answer": "Quy định về việc chấm công hàng ngày được thực hiện như sau:\n\n*   **Sáng:** Chấm công giờ vào làm và giờ nghỉ trưa.\n*   **Chiều:** Chấm công giờ vào làm và giờ nghỉ ra về.\n\nLưu ý: Trong trường hợp quên chấm công, nhân viên cần báo ngay cho trưởng nhóm để được ghi nhận.",
+      "rerank_scores": [
+        0.9968,
+        0.9764,
+        0.9739
+      ],
+      "faithfulness": 1.0,
+      "faithfulness_reason": "Các khẳng định trong câu trả lời đều được trích xuất chính xác và đầy đủ từ mục 1.5 trong ngữ cảnh tài liệu cung cấp.",
+      "answer_relevancy": 1.0,
+      "relevancy_reason": "Câu trả lời đi thẳng vào vấn đề, liệt kê rõ ràng quy trình chấm công buổi sáng và buổi chiều đúng như câu hỏi yêu cầu."
+    },
+    {
+      "test_id": 3,
+      "question": "Nhân viên có được phép tự ý ở lại xưởng khi hết giờ làm việc không?",
+      "ground_truth": "Nhân viên không được ở lại xưởng khi hết giờ nếu không có yêu cầu hoặc cho phép của quản lý.",
+      "ai_answer": "Nhân viên không được phép tự ý ở lại xưởng khi hết giờ làm việc nếu không có yêu cầu của trưởng nhóm hoặc quản lý.",
+      "rerank_scores": [
+        0.9982,
+        0.9951,
+        0.9897
+      ],
+      "faithfulness": 1.0,
+      "faithfulness_reason": "Khẳng định của AI khớp chính xác với quy định tại mục 1.5 trong tài liệu cung cấp: 'Không ở lại xưởng khi hết giờ làm việc mà không có yêu cầu của trưởng nhóm, quản lý'.",
+      "answer_relevancy": 1.0,
+      "relevancy_reason": "Câu trả lời trực diện, đầy đủ và đáp ứng chính xác yêu cầu của câu hỏi mà không chứa thông tin dư thừa."
+    },
+    {
+      "test_id": 4,
+      "question": "Trước khi ra về vào cuối ngày làm việc, nhân viên cần xử lý thiết bị điện thế nào?",
+      "ground_truth": "Nhân viên phải tắt và rút tất cả các thiết bị điện tại khu vực làm việc.",
+      "ai_answer": "Theo tài liệu nội bộ, khi hết giờ làm việc, nhân viên cần tắt và rút tất cả các thiết bị điện ở khu vực làm việc.",
+      "rerank_scores": [
+        0.9948,
+        0.9943,
+        0.9906
+      ],
+      "faithfulness": 1.0,
+      "faithfulness_reason": "Khẳng định của AI khớp chính xác với quy định trong ngữ cảnh tài liệu tại mục 'Hết giờ làm: Tắt, rút tất cả thiết bị điện ở khu vực làm việc'.",
+      "answer_relevancy": 1.0,
+      "relevancy_reason": "Câu trả lời trực tiếp giải quyết yêu cầu về cách xử lý thiết bị điện cuối ngày làm việc, thông tin đầy đủ và ngắn gọn."
+    },
+    {
+      "test_id": 5,
+      "question": "Công ty có quy định gì về việc mang thú cưng hoặc chó mèo đến văn phòng không?",
+      "ground_truth": "Tài liệu nội bộ không có thông tin về việc mang thú cưng (Câu hỏi bẫy kiểm tra chống ảo giác).",
+      "ai_answer": "Tài liệu nội bộ không có thông tin về vấn đề này.",
+      "rerank_scores": [
+        0.9972,
+        0.9937,
+        0.9752
+      ],
+      "faithfulness": 1.0,
+      "faithfulness_reason": "Câu trả lời của AI chính xác vì nội dung được cung cấp trong ngữ cảnh không hề đề cập đến quy định liên quan đến việc mang thú cưng hay chó mèo vào văn phòng.",
+      "answer_relevancy": 1.0,
+      "relevancy_reason": "Câu trả lời trực tiếp phản hồi rằng không có thông tin trong tài liệu về vấn đề được hỏi, đây là câu trả lời xác đáng và đúng trọng tâm."
+    }
+  ]
+}
